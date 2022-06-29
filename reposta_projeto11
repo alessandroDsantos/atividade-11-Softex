@@ -1,0 +1,29 @@
+-Exemplo de grafos:
+* Grafos utilizados em rede de comunicação:
+Nós-Dispositivos de comunicação; Arestas-Transferência de dados.
+Ligação Simplex:
+
+Tx -------> Rx
+
+-Os dados vão apenas para uma direção. 
+-Grafo direcionado para uma única direção.
+
+Ligação Half-duplex:
+
+Tx -------> Rx
+Rx <---x--- Tx
+     ou
+Tx ---x---> Rx
+Rx <------- Tx
+
+-Os dados vão para os dois lados porém não simultaneamente.
+
+Ligação Full-duplex:
+
+Tx -------> Rx
+Rx <------- Tx
+
+-Os dados vão para os dois lados.
+
+*Grafo utilizado na Internet:
+Nós-Páginas da Web; Arestas-Link de uma página para outra.
